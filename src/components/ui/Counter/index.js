@@ -13,7 +13,6 @@ class Counter extends Component {
     }
 
     render() {
-        console.log('PROPS: ', this.props)
         return (
             <div className="container">
                 <button className="btn" onClick={ this.decrement }>-</button>

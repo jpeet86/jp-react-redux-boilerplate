@@ -1,1 +1,1 @@
-export const exampleSelector = state => state.counterReducer.count
+export const exampleSelector = state => state.counterReducer.count;

@@ -5,8 +5,6 @@ const initialState = {
 }
 
 const exampleReducer = (state = initialState, action) => {
-    console.log('reducer', state, action);
-
     switch (action.type) {
         case INCREMENT:
             return {
